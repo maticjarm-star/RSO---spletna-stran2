@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK Trebnje</title>
+    <link rel="icon" href="slike/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img id="slika" src="slike/logo.png" alt="LOGO NK Trebnje">
+        </div>
+
+        <nav>
+            <ul>
+                <li class="gumb"><a href="index.html">DOMOV</a></li>
+                <li class="gumb"><a href="index.html#novice">NOVICE</a></li>
+                <li class="gumb"><a href="index.html#igrisca">IGRIŠČA</a></li>
+                <li class="gumb"><a href="index.html#o-klubu">O KLUBU</a>
+                    <ul>
+                        <li><a href="prijava.html">Vpis v klub</a></li>
+                        <li><a href="index.html#oprema">Klubska oprema</a></li>
+                        <li><a href="index.html#antidoping">Antidoping test</a></li>
+                    </ul>
+                </li>
+                <li class="gumb"><a href="index.html#selekcije">SELEKCIJE</a>
+                    <ul>
+                        <li><a href="index.html#selekcije">Članska ekipa</a></li>
+                        <li><a href="index.html#selekcije">Mladinske selekcije</a></li>
+                        <li><a href="index.html#selekcije">Otroške selekcije</a></li>
+                        <li><a href="index.html#selekcije">Mala šola</a></li>
+                        <li><a href="index.html#selekcije">Vratarski trening</a></li>
+                    </ul>
+                </li>
+                <li class="gumb"><a href="zimska-liga.html">ZIMSKA LIGA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="slideshow">
+            <button id="nazaj">&lt;</button>
+            <img id="prikazanaSlika" src="slike/1.slika.png" alt="Slika iz kluba">
+            <button id="naprej">&gt;</button>
+        </div>
+
+        <section id="domov">
+            <h1>Nogometni klub Trebnje</h1>
+            <p>
+                Dobrodošli na uradni spletni strani Nogometnega kluba Trebnje.
+                Naš klub povezuje ljubitelje nogometa, spodbuja športni duh
+                in omogoča mladim ter starejšim igralcem, da razvijajo svoje
+                nogometno znanje, vztrajnost in ekipno sodelovanje.
+            </p>
+            <p>
+                Spremljajte naše novice, spoznajte igrišča, odkrijte klubske
+                dejavnosti in preverite dogajanje v različnih selekcijah.
+            </p>
+        </section>
+
+        <section id="novice">
+            <h2>Zadnje novice</h2>
+            <p>
+                Na tem mestu objavljamo aktualne novice o tekmah, rezultatih,
+                treningih, klubskih dogodkih in dosežkih naših ekip.
+            </p>
+        </section>
+
+        <section id="igrisca">
+            <h2>Igrišča</h2>
+            <p>
+                Nogometna igrišča so prostor za treninge, tekme in druženje.
+                Na njih igralci razvijajo svoje sposobnosti, izboljšujejo
+                telesno pripravljenost ter se učijo sodelovanja in fair playa.
+            </p>
+        </section>
+
+        <section id="o-klubu">
+            <h2>O klubu</h2>
+            <p>
+                Nogometni klub Trebnje ustvarja športno okolje, v katerem
+                so pomembni razvoj nogometnih spretnosti, ekipni duh,
+                spoštovanje in odgovornost.
+            </p>
+
+            <div class="stolpci">
+                <article>
+                    <h3>Vpis v klub</h3>
+                    <p>
+                        Zanima te nogomet? Spoznaj naše treninge in možnosti za
+                        vključitev v klub. <a href="prijava.html">Izpolni prijavnico.</a>
+                    </p>
+                </article>
+                <article id="oprema">
+                    <h3>Klubska oprema</h3>
+                    <p>
+                        Klubska oprema predstavlja pripadnost ekipi in omogoča
+                        enoten nastop igralcev na treningih ter tekmah.
+                    </p>
+                </article>
+                <article id="antidoping">
+                    <h3>Antidoping test</h3>
+                    <p>
+                        Pošten šport temelji na zdravju, odgovornosti in spoštovanju
+                        pravil. Uporaba prepovedanih snovi ni združljiva s športnim
+                        duhom in načeli fair playa.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="selekcije">
+            <h2>Selekcije</h2>
+            <p>
+                V različnih starostnih selekcijah igralci postopoma razvijajo
+                tehnično znanje, taktično razumevanje igre in sodelovanje
+                s soigralci. Treningi so prilagojeni starosti in stopnji
+                nogometnega znanja.
+            </p>
+
+            <ul>
+                <li>Članska ekipa</li>
+                <li>Mladinske selekcije U19, U18 in U17</li>
+                <li>Mlajše selekcije U16, U15, U14 in U13</li>
+                <li>Otroške selekcije U12, U11, U10, U9, U8 in U7</li>
+                <li>Mala šola nogometa</li>
+                <li>Vratarski trening</li>
+            </ul>
+        </section>
+    </main>
+    <script src="skripta.js"></script>
+</body>
+</html>

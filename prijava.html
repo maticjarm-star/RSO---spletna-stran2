@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vpis v klub | NK Trebnje</title>
+    <link rel="icon" href="slike/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img id="slika" src="slike/logo.png" alt="LOGO NK Trebnje">
+        </div>
+
+        <nav>
+            <ul>
+                <li class="gumb"><a href="index.html">DOMOV</a></li>
+                <li class="gumb"><a href="index.html#novice">NOVICE</a></li>
+                <li class="gumb"><a href="index.html#igrisca">IGRIŠČA</a></li>
+                <li class="gumb"><a href="index.html#o-klubu">O KLUBU</a>
+                    <ul>
+                        <li><a href="prijava.html">Vpis v klub</a></li>
+                        <li><a href="index.html#oprema">Klubska oprema</a></li>
+                        <li><a href="index.html#antidoping">Antidoping test</a></li>
+                    </ul>
+                </li>
+                <li class="gumb"><a href="index.html#selekcije">SELEKCIJE</a>
+                    <ul>
+                        <li><a href="index.html#selekcije">Članska ekipa</a></li>
+                        <li><a href="index.html#selekcije">Mladinske selekcije</a></li>
+                        <li><a href="index.html#selekcije">Otroške selekcije</a></li>
+                        <li><a href="index.html#selekcije">Mala šola</a></li>
+                        <li><a href="index.html#selekcije">Vratarski trening</a></li>
+                    </ul>
+                </li>
+                <li class="gumb"><a href="zimska-liga.html">ZIMSKA LIGA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="vpis">
+            <h1>Vpis v klub</h1>
+            <div class="stolpci">
+                <form id="obrazec">
+                    <label for="ime">Ime in priimek</label>
+                    <input type="text" id="ime" name="ime">
+
+                    <label for="email">E-pošta</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="datum">Datum rojstva</label>
+                    <input type="date" id="datum" name="datum">
+
+                    <label for="selekcija">Selekcija</label>
+                    <select id="selekcija" name="selekcija">
+                        <option value="">-- izberi --</option>
+                        <option>Članska ekipa</option>
+                        <option>Mladinske selekcije</option>
+                        <option>Mlajše selekcije</option>
+                        <option>Otroške selekcije</option>
+                        <option>Mala šola</option>
+                        <option>Vratarski trening</option>
+                    </select>
+
+                    <button type="submit">Pošlji prijavo</button>
+                </form>
+
+                <aside>
+                    <h3>Status prijave</h3>
+                    <p id="rezultat">Izpolni obrazec in pošlji.</p>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <script src="skripta.js"></script>
+</body>
+</html>
